@@ -8,9 +8,8 @@ public class Main
         long start = System.currentTimeMillis();
         Palindrom palindrom = new Palindrom();
         palindrom.findAllPalindroms();
+        
         System.out.println(palindrom.maxPalindrom());
-
-//        System.out.println(Palindrom.isPalindrom(1234554321));
         System.out.println("working time - " + (System.currentTimeMillis() - start) + " ms");
     }
 }

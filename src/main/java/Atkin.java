@@ -13,16 +13,6 @@ public class Atkin
         return isPrimes;
     }
 
-    public static void setIsPrimes(boolean[] isPrimes)
-    {
-        Atkin.isPrimes = isPrimes;
-    }
-
-    public static int getLimit()
-    {
-        return limit;
-    }
-
     public static void setLimit()
     {
         Atkin.limit = 99999;
@@ -66,14 +56,4 @@ public class Atkin
         System.out.println();
     }
 
-    public static void show()
-    {
-        for (int i = 0; i < isPrimes.length; i++)
-        {
-            if (isPrimes[i])
-            {
-                System.out.println(i + " = " + isPrimes[i]);
-            }
-        }
-    }
 }

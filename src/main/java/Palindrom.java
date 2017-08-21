@@ -31,7 +31,7 @@ public class Palindrom
         }
     }
 
-    public void show()
+    public void showAllPalindroms()
     {
         for (int i = 0; i < listOfPalindroms.size(); i++)
         {
